@@ -1,4 +1,3 @@
-// src/app/alumnos.js
 import React, { useState, useEffect } from 'react';
 import FichaAlumno from '../components/FichaAlumno';
 

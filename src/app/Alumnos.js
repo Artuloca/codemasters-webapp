@@ -5,7 +5,7 @@ function App() {
     const [alumnos, setAlumnos] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/alumnos') // Reemplaza esto con la URL de tu API
+        fetch('http://localhost:3000/alumnos')
             .then(response => response.json())
             .then(data => setAlumnos(data));
     }, []);

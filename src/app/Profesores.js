@@ -5,7 +5,7 @@ function App() {
     const [profesores, setProfesores] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/profesores') // Reemplaza esto con la URL de tu API
+        fetch('http://localhost:3000/profesores')
             .then(response => response.json())
             .then(data => setProfesores(data));
     }, []);
